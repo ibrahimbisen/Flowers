@@ -30,7 +30,7 @@ p{
     border: black;
     object-fit: cover;
     width:300px;
-    height: 300px;
+    height: 400px;
   }
 
   .image{
@@ -45,65 +45,10 @@ p{
   }
   /*####################################################################################################*/
   /*now from now on it is the code of the hover mechanism*/
-  .image__overlay{
-      
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: #fffe71;
-      color: black;
-      
-  }
 
-.container {
-    position: relative;
-    width: 300px;
-    height: 300px;
-    display: inline-block;
-    padding: 0px;
-    
-}
-
-.image {
-    display:block;
-    object-fit: cover;
-    width: 300px;
-    height: 300px;
-    border-radius: 15px;
-}
+/* since 11/14/2021 it is empty and will never return */
 
 
-.text {
-    color: black;
-    font-size: 11px;
-    position:relative;
-    padding: 4%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.overlay {
-    position: absolute;
-    opacity: 0;
-    transition:all .6s ease;
-    background-color: #008cba;
-    border-radius: 15px;
-}
-.container:hover .overlay{
-    opacity: 0.87;
-}
-.overlayBottom{
-    width: 100%;
-    height: 0;
-    bottom:0;
-    left:0;
-    background-color: #fffe71;
-}
-.container:hover .overlayBottom {
-    height: 100%;
-}
 /*####################################################################################################*/
 /*from this point on this is the navigation bar*/
 li, a, button{
@@ -121,30 +66,20 @@ header{
 }
 .logo{
     cursor: pointer;
-    margin: auto;
+    margin:auto;
 
 }
-.nav_links{
-    list-style: none;
-}
-.nav_links li{
-    display: inline-block;
-    padding: 0px 12px;
-}
-.nav_links li a{
-    transition: all 0.3s ease 0s;
-    color: #001146;
-}
-.nav_links li a:hover{
-    color: #fffe71;
+
+.flowerstext{
+    width: 1000px;
 }
 
 
 
 
+/* THis is the special button */
 
-
-
+/* 
 button{
     margin-left: 12px;
     padding: 9px 25px;
@@ -158,15 +93,11 @@ button{
 button:hover{
     background-color: rgba(0,7,100,.6);
     color: #fffe71;
-}
+} */
 
 /*The navigation bar ends here*/
 /*####################################################################################################*/
-footer{
-    margin-bottom: auto;
-    
-    align-items: flex-end;
-}
+
 .note{
     padding: 1px 70px;
 }
