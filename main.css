@@ -52,7 +52,7 @@ p{
   /*now from now on it is the code of the hover mechanism*/
   .image__overlay{
       
-      top: 0;
+      top: 10%;
       left: 0;
       width: 100%;
       height: 100%;
@@ -63,19 +63,27 @@ p{
 
 .container {
     position: relative;
-    width: 300px;
+    width: 400px;
     height: 300px;
     display: inline-block;
-    padding: 0px;
+
+    
     
 }
 
-.image {
+.image_cleft , .image_cright {
     display:block;
     object-fit: cover;
-    width: 300px;
+    width: 400px;
     height: 300px;
     border-radius: 15px;
+    
+}
+.image_cleft{
+  transform: translateX(-55%);
+}
+.image_cright{
+  transform: translateX(55%);
 }
 
 .bigbutton {
@@ -86,16 +94,16 @@ p{
     border-radius: 100px;
     cursor: pointer;
     transition: all 0.3s ease 20s;
-    color: black;
+    color: white;
 }
 .bigbutton:hover{
-    text-decoration: black;
-    background-color: rgba(0, 0, 0, 0);
-    color: #00000000;
+    text-decoration: white;
+    background-color: rgba(255, 255, 255, 0);
+    color: #ffffff;
 }
 
 .text {
-    color: black;
+    color: white;
     font-size: 11px;
     position:relative;
     padding: 4%;
@@ -107,23 +115,55 @@ p{
 .overlay {
     position: absolute;
     opacity: 0;
-    transition:all .6s ease;
+    transition:all .4s ease;
     background-color: #008cba;
     border-radius: 15px;
 }
 .container:hover .overlay{
     opacity: 0.87;
+    position:absolute;
 }
-.overlayBottom{
-    width: 100%;
-    height: 0;
-    bottom:0;
-    left:0;
-    background-color: #fffe71;
-}
+
 .container:hover .overlayBottom {
     height: 100%;
 }
+
+/*----------------------------------*/
+
+
+.overlayLeft{
+  height: 100%;
+  width:0;
+  top:0;
+  left:0;
+  background-color: #7b002c;
+ 
+} 
+.overlayRight{
+  height: 100%;
+  width: 0;
+  top:0;
+  right:0;
+  background-color: #7b002c;
+
+}
+
+.container:hover .overlayLeft {
+  width: 100%;
+  /* right:20%; */
+  transform: translateX(-55%);
+}
+.container:hover .overlayRight {
+  width: 100%;
+  /* right: 20%; */
+  transform: translateX(55%);
+}
+
+
+
+
+
+
 /*####################################################################################################*/
 /*from this point on this is the navigation bar*/
 li, a, button{
@@ -202,3 +242,4 @@ footer{
     color: #ff0000;
     text-decoration: underline;
 }
+
