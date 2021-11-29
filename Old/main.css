@@ -66,9 +66,6 @@ p{
     width: 400px;
     height: 300px;
     display: inline-block;
-
-    
-    
 }
 
 .image_cleft , .image_cright {
@@ -95,11 +92,14 @@ p{
     cursor: pointer;
     transition: all 0.3s ease 20s;
     color: white;
+
 }
 .bigbutton:hover{
     text-decoration: white;
     background-color: rgba(255, 255, 255, 0);
     color: #ffffff;
+    transform: translateX(-55%);
+
 }
 
 .text {
@@ -122,10 +122,12 @@ p{
 .container:hover .overlay{
     opacity: 0.87;
     position:absolute;
+    transform: translateX(55%);
 }
 
 .container:hover .overlayBottom {
     height: 100%;
+    transform: translateX(55%);
 }
 
 /*----------------------------------*/

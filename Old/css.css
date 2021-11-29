@@ -1,0 +1,75 @@
+
+.container {
+    position: relative;
+    width: 400px;
+    height: 300px;
+    display: inline-block;
+}
+
+.image {
+    position:relative;
+    display: block;
+    object-fit: cover;
+    width: 400px;
+    height: 300px;
+}
+.text {
+    object-fit: cover;
+    color: white;
+    font-size: 35px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -155%);
+    font-family: sans-serif;
+}
+.overlay {
+    position: absolute;
+    opacity: 0;
+    transition:all .3s ease;
+    background-color: #008cba;
+}
+.container:hover .overlay,.container:hover .overlayFade {
+    opacity: 0.8;
+}
+
+.overlayLeft{
+    height: 100%;
+    width:0;
+    top:0;
+    left:0;
+    background-color: #00b1ba;   
+}
+.overlayRight{
+    height: 100%;
+    width: 0;
+    top:0;
+    right:0;
+    background-color: #12888e;
+}
+.container:hover .overlayLeft ,.container:hover .overlayRight {
+    width: 100%;
+    
+}
+
+.hoveringContainer:nth-child(odd) {
+    height: 200px;
+    width: 200px;
+    width: fit-content;
+    margin: 2em 33% 2em 2em;
+    /* border: 2px red solid; */
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.hoveringContainer:nth-child(even) {
+    height: 200px;
+    width: 200px;
+    width: fit-content;
+    margin: 2em 2em 2em 33%;
+    /* border: 2px blue solid; */
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/*flexbox*/
