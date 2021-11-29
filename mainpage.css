@@ -14,25 +14,35 @@ p{
     color:black;
     text-decoration: none;
 }
-.header{
+
+/*from this point on this is the navigation bar*/
+li, a, button{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 26;
+    color:black;
     text-decoration: none;
-    align-items: center;
 }
 
-.logo{
-    font-family: sans-serif;
-    text-decoration: none;
-    font: 20px;
+header{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 30px 10%;
 }
-.logo:hover{
-    text-decoration: underline;
+.Header{
+    font-size:xx-large;
 }
+.Header:hover{
+text-decoration: underline;
+}
+
 
 /* The center pictures ----------------------------*/
 
 .container {
     position: relative;
-    width: 400px;
+    width: 500px;
     height: 300px;
     display: inline-block;
 }
@@ -41,7 +51,7 @@ p{
     position: relative;
     display: block;
     object-fit: cover;
-    width: 400px;
+    width: 500px;
     height: 300px;
 }
 .text {
@@ -99,7 +109,7 @@ p{
 
 .hoveringContainer:nth-child(even) {
     height: 300px;
-    width: 400px;
+    width: 500px;
     width: fit-content;
     margin: 2em 2em 2em 25%;
     /* border: 2px blue solid; */
@@ -107,29 +117,11 @@ p{
     overflow: hidden;
 }
 
+.hoveringContainer a{
+    color: white;
+}
 /*flexbox*/
 
-
-/*from this point on this is the navigation bar*/
-li, a, button{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 500;
-    font-size: 26;
-    color:black;
-    text-decoration: none;
-}
-
-header{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 30px 10%;
-}
-.logo{
-    cursor: pointer;
-    margin: auto;
-
-}
 
 
 

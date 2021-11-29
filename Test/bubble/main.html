@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<head>
+    <title> ibrahim bisen</title>
+    <meta charset="UTF-8">
+    <meta name="description" content=" mywebsite">
+    <meta name="author" content=" iborahim">
+    <link rel="icon" href="">
+    <link href="main.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="wrap" id="content-area">
+        <h1>Material Design Ripple Transition</h1>
+        <p>Just playing around to see if I can recreate the Material Design ripple as a page transition in CSS. Click
+            any <a href="#">link</a> in this block of text to load another set of text. The <a href="#">links</a> don't
+            go anywhere yet. They are just <a href="#">hooks</a> to allow you to click somewhere</p>
+
+        <p>The style and animation is entirely CSS so it is smooth. JavaScript is used to add classes at the right time.
+            It also pauses to wait for the content to be replaced, and calculates where to centre the hole. There are
+            two stages to the animation. When a <a href="#">link</a> is clicked the border-width grows very large.</p>
+
+        <p>That's enough reading on this slide. Click a <a href="#">link</a> to load the second slide</p>
+
+
+    </div>
+    <div id="content-2" style="display:none">
+        <h2>Slide Two</h2>
+        <p>This is the second slide. If you want you can <a href="#">go back to the first slide</a>. The second part of
+            the animation is increasing the size of the element itself in order to create a hole.</p>
+
+        <p>This transition could be used for presentation slides. Using pushState then this could be used as a
+            transition between webpages.</p>
+
+    </div>
+
+    <div class="ripple-wrap">
+        <div class="ripple"></div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
