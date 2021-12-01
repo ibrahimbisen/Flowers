@@ -1,7 +1,7 @@
 
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #b0defd;
+    background-color: #ecebe4;
     text-decoration: none;
     display:grid;
     display: flex;
@@ -53,6 +53,7 @@ text-decoration: underline;
     object-fit: cover;
     width: 500px;
     height: 300px;
+
 }
 .text {
     object-fit: cover;
@@ -72,7 +73,7 @@ text-decoration: underline;
     position: absolute;
     opacity: 0;
     transition:all .35s ease-in-out;
-    background-color: #7b002c;
+    background-color: #c23350;
 }
 .container:hover .overlay,.container:hover .overlayFade {
     opacity: 0.8;
@@ -83,14 +84,14 @@ text-decoration: underline;
     width:0;
     top:0;
     left:0;
-    background-color: #7b002c;   
+    background-color: #c23350;   
 }
 .overlayRight{
     height: 100%;
     width: 0;
     top:0;
     right:0;
-    background-color: #7b002c;
+    background-color: #c23350;
 }
 .container:hover .overlayLeft ,.container:hover .overlayRight {
     width: 100%;

@@ -9,40 +9,7 @@ p{
     color:black;
     text-decoration: none;
 }
-.header{
-    text-decoration: none;
-    background-color: #fffe71;
-}
 
-.logo{
-    font-family: sans-serif;
-    text-decoration: none;
-}
-.logo:hover{
-    text-decoration: underline;
-}
-.myimg {
-    object-fit: cover;
-    width:230px;
-    height:230px;
-  }
-.extraflowers {
-    border: black;
-    object-fit: cover;
-    width:300px;
-    height: 400px;
-  }
-
-  .image{
-      
-      width: 230px;
-      height: 230px;
-  }
-  .myimg1{
-      display: block;
-      width: 100%;
-
-  }
   /*####################################################################################################*/
   /*now from now on it is the code of the hover mechanism*/
 
@@ -59,10 +26,6 @@ li, a, button{
     text-decoration: none;
 }
 
-.flowerstext{
-    width: 1000px;
-}
-
 header{
     display: flex;
     justify-content:center;
@@ -75,6 +38,11 @@ header{
 .Header:hover{
 text-decoration: underline;
 }
+
+/* Article Organization starts here */
+
+
+
 /* Footer  */
 .note{
     padding: 1px 70px;
