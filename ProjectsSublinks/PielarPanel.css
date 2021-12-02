@@ -1,0 +1,62 @@
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ecebe4;
+    text-decoration: none;
+
+}
+p{
+    color:black;
+    text-decoration: none;
+}
+li, a, button{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 16;
+    color:black;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 30px 10%;
+}
+.Header{
+    font-size:xx-large;
+}
+.Header:hover{
+text-decoration: underline;
+}
+/* Footer  */
+.note{
+    padding: 1px 70px;
+}
+footer{
+    background-color:rgba(255, 255, 255, 0);
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: auto;
+}
+
+.socials{
+    list-style: none;
+    
+}
+.github .linkedin{
+    font-style: italic;
+}
+.socials li{
+    display: inline-block;
+    
+}
+.socials li a{
+    transition: all 0.3s ease 0s;
+    color: black;
+}
+.socials li a:hover{
+    color: #ff0000;
+    text-decoration: underline;
+}
+/* Footer End */

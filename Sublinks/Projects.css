@@ -8,16 +8,7 @@ p {
   text-decoration: none;
 }
 
-/*####################################################################################################*/
-/*now from now on it is the code of the hover mechanism*/
-
-/* since 11/14/2021 it is empty and will never return */
-
-/*####################################################################################################*/
-/*from this point on this is the navigation bar*/
-li,
-a,
-button {
+li,a,button {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 500;
   font-size: 16;
@@ -36,18 +27,6 @@ header {
 }
 .Header:hover {
   text-decoration: underline;
-}
-
-/* Article Organization starts here */
-
-.article_organization div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.pdf {
-  width: 50%;
-  height: 700px;
 }
 
 /* Footer  */
@@ -80,16 +59,6 @@ footer {
   text-decoration: underline;
 }
 /* Footer End */
-
-
-
-
-
-/* This where the projects start */
-
-
-
-
 
 /* Projects Section
 ------------------------------------------------------------------------------- */
