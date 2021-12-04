@@ -38,6 +38,18 @@ text-decoration: underline;
 }
 
 
+.bottomWarning{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    font-size: 10;
+    color:#ecebe4;
+    text-decoration: none;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
 /* The center pictures ----------------------------*/
 
 .container {
