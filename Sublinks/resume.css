@@ -148,6 +148,29 @@ footer{
   /* this is the end of back button */
   
   
+  .flex_explanantion {
+    height: 200px;
+    width: 80%;
+    position: relative;
+    text-align: center;
+    left: 10%;
+  
+  }
+  
+  .classic .panel {
+    width: 1000px;
+    height: 1000px;
+  }
+  .classic .book {
+    width: 600px;
+    height: 1000px;
+  }
+  .classic {
+    position: relative;
+    display: grid;
+    place-content: center;
+    place-items: center;
+  }
   
   
   

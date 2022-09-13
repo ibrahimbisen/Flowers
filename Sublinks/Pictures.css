@@ -280,3 +280,12 @@ footer {
 .container:hover .overlayTop {
   height: 100%;
 }
+
+.flex_explanantion {
+  height: 200px;
+  width: 80%;
+  position: relative;
+  text-align: center;
+  left: 10%;
+
+}
